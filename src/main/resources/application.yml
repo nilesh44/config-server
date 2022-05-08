@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: configServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/nilesh44/app-config
+          password: 
+          username: 
